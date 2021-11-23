@@ -44,7 +44,7 @@ public class AllCheckbox {
 		 * for (int i = 0; i < allCheckBox.size(); i++) { if
 		 * (!allCheckBox.get(i).isSelected()) { allCheckBox.get(i).click(); } }
 		 */
-
+		//I have changed
 	}
 
 }
