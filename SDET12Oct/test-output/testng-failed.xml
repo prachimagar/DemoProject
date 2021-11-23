@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Suite]]" parallel="tests">
+  <test thread-count="5" name="Test(failed)(failed)" parallel="tests">
+    <classes>
+      <class name="demotestng.DependencyTest">
+        <methods>
+          <include name="c"/>
+          <include name="a"/>
+          <include name="b"/>
+        </methods>
+      </class> <!-- demotestng.DependencyTest -->
+      <class name="demotestng.Hard_Assert">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="f"/>
+        </methods>
+      </class> <!-- demotestng.Hard_Assert -->
+    </classes>
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

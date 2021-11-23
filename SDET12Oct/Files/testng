@@ -1,0 +1,15 @@
+TestNg is framework next generation
+Cedric buest in 2003
+it similiar junit
+Advantages:
+1.Test execution parallel
+2.Htmlreport generate
+3.Test Suite
+4.Failed.xml
+5.Data Driven Development
+6.Unit Testing
+7.Functional selenium testing
+8.Annotation
+9.Api testing
+10.parameterization
+11.Assertion

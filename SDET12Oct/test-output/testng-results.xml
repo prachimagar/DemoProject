@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="2" ignored="0" total="9" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Failed suite [Suite]" duration-ms="98535" started-at="2021-11-02T05:02:55Z" finished-at="2021-11-02T05:04:33Z">
+    <groups>
+    </groups>
+    <test name="Test(failed)" duration-ms="98535" started-at="2021-11-02T05:02:55Z" finished-at="2021-11-02T05:04:33Z">
+      <class name="demotestng.Hard_Assert">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:demotestng.Hard_Assert@2a2d45ba]" name="beforeMethod" is-config="true" duration-ms="11417" started-at="2021-11-02T05:03:07Z" finished-at="2021-11-02T05:03:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="FAIL" signature="f()[pri:0, instance:demotestng.Hard_Assert@2a2d45ba]" name="f" duration-ms="5105" started-at="2021-11-02T05:03:19Z" finished-at="2021-11-02T05:03:24Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Rediffmail] but found [Rediffmai]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Rediffmail] but found [Rediffmai]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at demotestng.Hard_Assert.f(Hard_Assert.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:demotestng.Hard_Assert@2a2d45ba]" name="afterMethod" is-config="true" duration-ms="1524" started-at="2021-11-02T05:03:24Z" finished-at="2021-11-02T05:03:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- demotestng.Hard_Assert -->
+      <class name="demotestng.DependencyTest">
+        <test-method status="FAIL" signature="a()[pri:0, instance:demotestng.DependencyTest@7c16905e]" name="a" duration-ms="15" started-at="2021-11-02T05:03:07Z" finished-at="2021-11-02T05:03:07Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:568)
+at org.testng.Assert.assertEquals(Assert.java:578)
+at demotestng.DependencyTest.a(DependencyTest.java:9)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="SKIP" signature="c()[pri:0, instance:demotestng.DependencyTest@7c16905e]" name="c" duration-ms="0" started-at="2021-11-02T05:03:50Z" depends-on-methods="demotestng.DependencyTest.a" finished-at="2021-11-02T05:03:50Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DependencyTest.c()[pri:0, instance:demotestng.DependencyTest@7c16905e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DependencyTest.c()[pri:0, instance:demotestng.DependencyTest@7c16905e] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+        <test-method status="SKIP" signature="b()[pri:0, instance:demotestng.DependencyTest@7c16905e]" name="b" duration-ms="0" started-at="2021-11-02T05:03:50Z" depends-on-methods="demotestng.DependencyTest.a" finished-at="2021-11-02T05:03:50Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method DependencyTest.b()[pri:0, instance:demotestng.DependencyTest@7c16905e] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method DependencyTest.b()[pri:0, instance:demotestng.DependencyTest@7c16905e] depends on not successfully finished methods
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:888)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.access$000(SuiteRunner.java:40)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:489)
+at org.testng.internal.thread.ThreadUtil$1.call(ThreadUtil.java:52)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+      </class> <!-- demotestng.DependencyTest -->
+      <class name="demotestng.BRQ_AZ2">
+        <test-method status="PASS" signature="Whenuseropenchromebrowser()[pri:0, instance:demotestng.BRQ_AZ2@1753acfe]" name="Whenuseropenchromebrowser" duration-ms="12117" started-at="2021-11-02T05:02:55Z" finished-at="2021-11-02T05:03:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Whenuseropenchromebrowser -->
+        <test-method status="PASS" signature="openamazon()[pri:0, instance:demotestng.BRQ_AZ2@1753acfe]" name="openamazon" duration-ms="25035" started-at="2021-11-02T05:03:25Z" depends-on-methods="demotestng.BRQ_AZ2.Whenuseropenchromebrowser" finished-at="2021-11-02T05:03:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openamazon -->
+        <test-method status="PASS" signature="searchproduct()[pri:0, instance:demotestng.BRQ_AZ2@1753acfe]" name="searchproduct" duration-ms="16891" started-at="2021-11-02T05:03:50Z" depends-on-methods="demotestng.BRQ_AZ2.openamazon" finished-at="2021-11-02T05:04:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchproduct -->
+        <test-method status="PASS" signature="addtocart()[pri:0, instance:demotestng.BRQ_AZ2@1753acfe]" name="addtocart" duration-ms="19249" started-at="2021-11-02T05:04:07Z" depends-on-methods="demotestng.BRQ_AZ2.searchproduct" finished-at="2021-11-02T05:04:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method status="PASS" signature="removefromcart()[pri:0, instance:demotestng.BRQ_AZ2@1753acfe]" name="removefromcart" duration-ms="6953" started-at="2021-11-02T05:04:27Z" depends-on-methods="demotestng.BRQ_AZ2.addtocart" finished-at="2021-11-02T05:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removefromcart -->
+      </class> <!-- demotestng.BRQ_AZ2 -->
+    </test> <!-- Test(failed) -->
+  </suite> <!-- Failed suite [Suite] -->
+</testng-results>
